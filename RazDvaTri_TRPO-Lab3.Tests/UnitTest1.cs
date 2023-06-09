@@ -1,4 +1,6 @@
 using RazDvaTri_TRPO_Lab3;
+using RazDvaTri_TRPO_Lab3.Lib;
+
 namespace RazDvaTri_TRPO_Lab3.Tests
     
 {

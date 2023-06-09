@@ -17,6 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RazDvaTri_TRPO-Lab3.Lib\RazDvaTri_TRPO-Lab3.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="RazDvaTri_TRPO-Lab3.ConsoleApp">
       <HintPath>..\RazDvaTri_TRPO-Lab3\bin\Debug\net6.0\RazDvaTri_TRPO-Lab3.ConsoleApp.dll</HintPath>
     </Reference>
