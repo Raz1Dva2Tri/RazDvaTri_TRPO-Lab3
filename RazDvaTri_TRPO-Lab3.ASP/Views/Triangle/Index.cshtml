@@ -1,0 +1,26 @@
+﻿
+@model RazDvaTri_TRPO_Lab3.ASP.Models.Triangle_Model;
+
+@{
+    ViewBag.Title = "Update Triangle";
+}
+
+<h2>Update Triangle</h2>
+
+@using (Html.BeginForm("UpdateTriangle", "Triangle", FormMethod.Post))
+{
+    <div>
+        <label for="SideA">Сторона А:</label>
+        @Html.TextBoxFor(m => m.a, new { required = "required" })
+        <label for="SideB">Сторона B:</label>
+        @Html.TextBoxFor(m => m.b, new { required = "required" })
+        <label for="SideC">Сторона C:</label>
+        @Html.TextBoxFor(m => m.c, new { required = "required" })
+    </div>
+    <input type="submit" value="Update Triangle" />
+}
+
+@if (ViewBag.TriangleData != null)
+{
+    <p>@ViewBag.TriangleData</p>
+}
