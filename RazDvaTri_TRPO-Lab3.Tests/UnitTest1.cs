@@ -14,15 +14,8 @@ namespace RazDvaTri_TRPO_Lab3.Tests
             double b = 4;
             double c = 5;
             double expected = 6;
-
             Triangle triangle = new(a, b, c);
-
-
-            Assert.AreEqual(expected, triangle.S);
-            
-
-
-
+            Assert.AreEqual(expected, triangle.S);   
             
         }
     }

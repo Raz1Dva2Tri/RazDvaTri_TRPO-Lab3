@@ -2,9 +2,14 @@
 {
     public class Triangle
     {
-        double a;
-        double b;
-        double c;
+        public double a { get; set; }
+        public double b { get; set; }
+        public double c { get; set; }
+
+        public Triangle()
+        {
+
+        }
 
         public Triangle(double a_, double b_, double c_)
         {

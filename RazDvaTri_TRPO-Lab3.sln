@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazDvaTri_TRPO-Lab3.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazDvaTri_TRPO-Lab3.Lib", "RazDvaTri_TRPO-Lab3.Lib\RazDvaTri_TRPO-Lab3.Lib.csproj", "{62886E00-A83A-41F3-96DE-6506D1187842}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazDvaTri_TRPO-Lab3.WPF", "RazDvaTri_TRPO-Lab3.WPF\RazDvaTri_TRPO-Lab3.WPF.csproj", "{CC277D12-1327-4E9A-B969-82974C34EDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazDvaTri_TRPO-Lab3.ASP", "RazDvaTri_TRPO-Lab3.ASP\RazDvaTri_TRPO-Lab3.ASP.csproj", "{05B19D0A-BD10-4920-9FCF-0E72EE576E08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{62886E00-A83A-41F3-96DE-6506D1187842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62886E00-A83A-41F3-96DE-6506D1187842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62886E00-A83A-41F3-96DE-6506D1187842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC277D12-1327-4E9A-B969-82974C34EDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC277D12-1327-4E9A-B969-82974C34EDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC277D12-1327-4E9A-B969-82974C34EDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC277D12-1327-4E9A-B969-82974C34EDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B19D0A-BD10-4920-9FCF-0E72EE576E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B19D0A-BD10-4920-9FCF-0E72EE576E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B19D0A-BD10-4920-9FCF-0E72EE576E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B19D0A-BD10-4920-9FCF-0E72EE576E08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
